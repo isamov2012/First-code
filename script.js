@@ -23,5 +23,6 @@ function randomBgColor(){
     let ranNum5=String(Math.floor(Math.random()*100)).padStart(2,0)
     color1[0].value=`#${ranNum0}${ranNum1}${ranNum2}`
     color1[1].value=`#${ranNum3}${ranNum4}${ranNum5}`
+    gradient.style.color=['red','blue','green','white','black','yellow'][Math.floor(Math.random()*6)]
     changeBgColorByInput()
 }
