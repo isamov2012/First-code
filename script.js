@@ -24,5 +24,4 @@ function randomBgColor(){
     color1[0].value=`#${ranNum0}${ranNum1}${ranNum2}`
     color1[1].value=`#${ranNum3}${ranNum4}${ranNum5}`
     changeBgColorByInput()
-    console.log(ranNum0,ranNum1,ranNum2)
 }
