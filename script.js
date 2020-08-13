@@ -1,4 +1,4 @@
-//  Using selectors for the first time!!
+//  Using selectors for the first time!!!
 let color1=document.getElementsByTagName('input')
 let gradient=document.querySelector('.gradient')
 let h3=document.querySelector('h3')
