@@ -16,7 +16,6 @@ function changeBgColorByInput(){
 }
 
 function randomBgColor(){
-    debugger
     let ranNum0=String(Math.floor(Math.random()*100)).padStart(2,0)
     let ranNum1=String(Math.floor(Math.random()*100)).padStart(2,0)
     let ranNum2=String(Math.floor(Math.random()*100)).padStart(2,0)
